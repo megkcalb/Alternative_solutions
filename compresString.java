@@ -15,7 +15,7 @@ public class stringCompress{
                }
             ++i; 
          }
-         op.append(str.charAt(i)).append(count);
+         op.append(str.charAt(i)).append(count+1);
         System.out.println("\n compressed : "+op);        
      }
 }
